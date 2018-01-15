@@ -1,13 +1,13 @@
 ﻿use Nova_Poshta
 go
 
--- drop and create schema nps
+-- drop and create schema nps!!!!
 drop schema if exists nps
 go
 create schema nps authorization dbo
 go
 
-
+--111
 -- drop and create table Countries
 drop table if exists nps.Countries
 go
