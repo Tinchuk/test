@@ -7,12 +7,12 @@ go
 create database Nova_Poshta
 on
 (name = Nova_Poshta_data,
- filename = N'C:\Program Files\Microsoft SQL Server\MSSQL14.NAZARSSQL\MSSQL\DATA\Nova_Poshta_data.mdf', 
+ filename = N'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\Nova_Poshta_data.mdf', 
  size = 10MB,   
  filegrowth = 10%)
 log on
 (name = Nova_Poshta_log,
- filename = N'C:\Program Files\Microsoft SQL Server\MSSQL14.NAZARSSQL\MSSQL\DATA\Nova_Poshta_log.ldf',
+ filename = N'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\Nova_Poshta_log.ldf',
  size = 5MB,
  filegrowth = 20%)
 go
